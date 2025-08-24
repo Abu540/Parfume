@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+  border: none;
+}
+body {
+  background: #212529;
+  color: #fff;
+}
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 80px;
+}
+h1 {
+  font-size: 48px;
+  font-weight: 600;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+p,
+a,
+span,
+button {
+  font-size: 16px;
+  font-weight: 400;
+}
+button {
+  padding: 8px 15px;
+  border-radius: 12px;
+  color: #fff;
+  cursor: pointer;
+  background: #6c757d;
+}
