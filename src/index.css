@@ -46,3 +46,18 @@ button {
   cursor: pointer;
   background: #6c757d;
 }
+img {
+  cursor: pointer;
+}
+button:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+button:active {
+  background: red;
+  transform: scale(0.9);
+}
+input {
+  color: white;
+  padding: 15px;
+}

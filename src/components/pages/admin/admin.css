@@ -1,0 +1,60 @@
+.admin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.line {
+  padding: 30px;
+}
+.admin h1 {
+  width: 1000px;
+  height: 62px;
+  background-color: #6c757d;
+}
+.admin-cont {
+  display: flex;
+  width: 1000px;
+  height: 270px;
+  background-color: #d9d9d9;
+}
+.admin-add {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 500px;
+  height: 250px;
+  background-color: #d9d9d9;
+}
+.text {
+  width: 260px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+}
+.text p {
+  padding: 16px;
+}
+.inp {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+.inp input {
+  border: 1px solid #000000;
+  width: 230px;
+  height: 15px;
+}
+
+.admin-add p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+}
+.admin-add span {
+  font-size: 80px;
+  color: black;
+}
