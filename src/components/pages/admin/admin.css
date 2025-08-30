@@ -47,6 +47,7 @@
   border: 1px solid #000000;
   width: 230px;
   height: 15px;
+  color: black;
 }
 
 .admin-add p {
@@ -57,4 +58,48 @@
 .admin-add span {
   font-size: 80px;
   color: black;
+}
+.admin-add button {
+  background: #4a69bd;
+}
+/* Login-Page */
+.login-page {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  padding: 20px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+.login-page h2 {
+  color: #4a69bd;
+}
+.login-page input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-page button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: #4a69bd;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-page button:hover {
+  background: #3c56a6;
 }

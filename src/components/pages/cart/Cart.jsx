@@ -7,9 +7,9 @@ const Cart = ({  }) => {
       <div className="container">
         <div className="all">
           <div className="about">
-            <h4>PRODUCT</h4>
-            <h4>QUANTITY</h4>
-            <h4>PRICE</h4>
+            <h3>PRODUCT</h3>
+            <h3>QUANTITY</h3>
+            <h3>PRICE</h3>
           </div>
           <div className="about-prod">
             <div className="prod-1">

@@ -23,11 +23,11 @@ const Hero = () => {
         </div>
         <div className="hero-cont">
           <img src={parf3} />
-          <h3>Dior Sauvage</h3>
+          <h3></h3>
         </div>
         <div className="hero-cont">
           <img src={parf4} />
-          <h3>Tom Ford Noir</h3>
+          <h3>Paco Rabanne Phantom</h3>
         </div>
       </div>
       <footer>

@@ -5,7 +5,7 @@ import { FaRegUser } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa";
 import { FaRegCircleUser } from "react-icons/fa6";
 
-const Header = () => {
+const Header = ({ searchQuery, setSearchQuery }) => {
   return (
     <header className={styles.container}>
       <div className="container">
@@ -28,6 +28,8 @@ const Header = () => {
               className={styles.search}
               type="text"
               placeholder="Search..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
             />
           </nav>
           <div className={styles.icons}>
